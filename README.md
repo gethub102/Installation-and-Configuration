@@ -60,7 +60,7 @@
   >virtualenv --distribute  //??
   
   参考文档：
-  >[virtualenv -廖雪峰](http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/001432712108300322c61f256c74803b43bfd65c6f8d0d0000)
+  >[virtualenv -廖雪峰](http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/001432712108300322c61f256c74803b43bfd65c6f8d0d0000)<br>
   >[用virtualenv建立多个Python独立开发环境](http://www.nowamagic.net/academy/detail/1330228)<br>
   >[virtualenv官方文档](http://virtualenv-chinese-docs.readthedocs.io/en/latest/#id29)
   
@@ -103,7 +103,8 @@
   
   在腾讯云上试了很久都没有搞定，最后换成美国的VPS才安装成功，原因大家都明白。。
   
-  >git clone https://github.com/nodejs/node.git   //用源码安装node花了很长时间，没试过apt-get<br>
+  >git clone https://github.com/nodejs/node.git   
+  >//用源码安装node花了很长时间，没试过apt-get<br>
   >chmod -R 755 node<br>
   >cd node<br>
   >sudo ./configure<br>
