@@ -1,4 +1,4 @@
-## 记录一些配置安装的流程，以及遇到的问题和解决方法（Ubuntu)
+## 记录一些配置安装的流程，以及遇到的问题和解决方法
 
 # 目录
 
@@ -79,14 +79,15 @@
   
   相关命令：
   >git status<br>
-  >git diff test1.txt //查看修改内容
+  >git diff HEAD file.txt //比较工作区和版本库的区别
   
   版本回退：
   >git log  //查看提交记录<br>
-  >git reset --hard HEAD^
+  >git reset --hard HEAD~ //返回上一版本<br>
+  >git reset HEAD file	//清除缓存区的修改<br>
+  >git checkout -- file.txt //撤销工作区的修改
   
-  上一个版本就是HEAD^，上上一个版本就是HEAD^^，当然往上100个版本写100个^比较容易数不过来，所以写成HEAD~100
-  
+
   关联远程库：
   >git remote add origin git@server-name:path/repo-name.git
   
