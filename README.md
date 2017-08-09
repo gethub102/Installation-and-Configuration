@@ -103,10 +103,10 @@
 
   1.安装nodejs，npm
   
-  在腾讯云上试了很久都没有搞定，最后换成美国的VPS才安装成功，原因大家都明白。。
+  在腾讯云上试了很久都没有搞定，最后换成美国的VPS才安装成功
   
   >git clone https://github.com/nodejs/node.git   
-  >//用源码安装node花了很长时间，没试过apt-get<br>
+  >//也可以用apt-get<br>
   >chmod -R 755 node<br>
   >cd node<br>
   >sudo ./configure<br>
