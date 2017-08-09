@@ -6,6 +6,7 @@
  2. [安装配置virtualenv][2]
  3. [Git使用方法][3]
  4. [在Github Pages上部署Hexo][4]
+ 5. [Apache2笔记][5]
  
 # Shadowsocks服务端 Ubuntu 14.04
 
@@ -152,24 +153,23 @@
   [*返回目录*](#目录)
 
 # Apache2笔记
-
-默认目录：/var/www/...  
-配置文件目录：  
-/etc/apache2/...  
-相关配置文件：  
-修改目录： /etc/apache2/sites-enabled/000-default  
+```
+默认目录：       /var/www/...  
+配置文件目录：   /etc/apache2/...    
+修改默认目录： /etc/apache2/sites-enabled/000-default  
 设置监听端口：  /etc/apache2/ports.conf  
-查看系统监听端口：  
-netstat -tunlp
+查看系统监听端口：  netstat -tunlp
+```
 
 参考资料：  
 [一个IP支持多个网站实例（Apache2、Ubuntu相关）](http://www.blogjava.net/Andyluo/archive/2009/08/24/21821.html)  
 [ubuntu修改apache2默认网站目录和默认主页文档](http://www.2cto.com/os/201308/238996.html)  
 [关于Ubuntu配置文件apache2 httpd.conf位置 ](http://blog.csdn.net/deepwishly/article/details/38276619)
 
-
+  [*返回目录*](#目录)
 
 [1]: #shadowsocks服务端-ubuntu-1404
 [2]: #安装配置virtualenv
 [3]: #git使用方法
 [4]: #在github-pages上部署hexo
+[5]: #apache2笔记
