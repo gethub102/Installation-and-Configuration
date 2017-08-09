@@ -69,6 +69,8 @@
   
 # Git使用方法
 
+写了一篇博文，看这个就行了：[Git与VSCode笔记](http://blog.orenoid.com/2017/02/15/Git%E4%B8%8EVS-Code%E7%AC%94%E8%AE%B0/)  
+
   创建仓库：
   >mkdir test<br>
   >cd test<br>
@@ -101,9 +103,7 @@
   
 # 在Github Pages上部署Hexo
 
-  1.安装nodejs，npm
-  
-  在腾讯云上试了很久都没有搞定，最后换成美国的VPS才安装成功
+  1.安装nodejs，npm (ubuntu)
   
   >git clone https://github.com/nodejs/node.git   
   >//也可以用apt-get<br>
@@ -119,9 +119,14 @@
   
   2.安装Hexo
   
-  >npm install -g hexo<br>
+  >如果npm连接不顺畅，建议换成淘宝源，命令更换成cnpm，操作一致<br>
+
+  >npm install -g hexo-cli<br>
   >hexo init  //新建一个目录后在里面操作<br>
+  >npm install
   >hexo g   //生成页面内容<br>
+
+  >npm install hexo-server --save //安装server插件<br>
   >hexo s   //执行后可在4000端口预览
   
   3.部署到Github
